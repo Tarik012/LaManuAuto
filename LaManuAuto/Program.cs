@@ -1,7 +1,11 @@
+using LaManuAuto.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<LAMANU_AUTOContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("LaManuAutoConnection")));
 
 var app = builder.Build();
 

@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {}
+    "D:\\SourceRepo\\ProjetGroup1\\LaManuAuto\\LaManuAuto.csproj": {}
   },
   "projects": {
-    "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {
+    "D:\\SourceRepo\\ProjetGroup1\\LaManuAuto\\LaManuAuto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
+        "projectUniqueName": "D:\\SourceRepo\\ProjetGroup1\\LaManuAuto\\LaManuAuto.csproj",
         "projectName": "LaManuAuto",
-        "projectPath": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
-        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\obj\\",
+        "projectPath": "D:\\SourceRepo\\ProjetGroup1\\LaManuAuto\\LaManuAuto.csproj",
+        "packagesPath": "C:\\Users\\akone\\.nuget\\packages\\",
+        "outputPath": "D:\\SourceRepo\\ProjetGroup1\\LaManuAuto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\akone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
