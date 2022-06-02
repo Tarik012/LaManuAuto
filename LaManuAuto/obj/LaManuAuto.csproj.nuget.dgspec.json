@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {}
+    "C:\\Users\\X240\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {}
   },
   "projects": {
-    "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {
+    "C:\\Users\\X240\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
+        "projectUniqueName": "C:\\Users\\X240\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
         "projectName": "LaManuAuto",
-        "projectPath": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
-        "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Projets\\LA MANU\\MVC\\LaManuAuto\\LaManuAuto\\LaManuAuto\\obj\\",
+        "projectPath": "C:\\Users\\X240\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
+        "packagesPath": "C:\\Users\\X240\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\X240\\source\\repos\\LaManuAuto\\LaManuAuto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\X240\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
