@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,6 +27,38 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        @*  @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                        {*@
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Role" asp-action="Index">Manage Roles</a>
+                            </li>
+                        @*}*@
+                       @* @if (SignInManager.IsSignedIn(User))
+                        {*@
+                           @* <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Role" asp-action="GetMyRoles">My Roles</a>
+                            </li>*@
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Tutoriels" asp-action="Index">Liste des Tutoriels</a>
+                            </li>
+                           
+                       @* }*@
+                      @*  @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin") || User.IsInRole("Employee")))
+                        {*@
+                           @* <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Tutoriels" asp-action="Create">Creer des Tutoriels</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Create">Créer Categories</a>
+                            </li>*@
+                             <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="Index">Liste des Categories</a>
+                            </li>
+                        @*}*@
+                         <partial name ="_LoginPartial" />
                     </ul>
                 </div>
             </div>
