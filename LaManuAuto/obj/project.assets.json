@@ -9845,11 +9845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akone\\Source\\Repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
+      "projectUniqueName": "C:\\Users\\akone\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
       "projectName": "LaManuAuto",
-      "projectPath": "C:\\Users\\akone\\Source\\Repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
+      "projectPath": "C:\\Users\\akone\\source\\repos\\LaManuAuto\\LaManuAuto\\LaManuAuto.csproj",
       "packagesPath": "C:\\Users\\akone\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akone\\Source\\Repos\\LaManuAuto\\LaManuAuto\\obj\\",
+      "outputPath": "C:\\Users\\akone\\source\\repos\\LaManuAuto\\LaManuAuto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
